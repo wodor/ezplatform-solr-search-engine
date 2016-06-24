@@ -28,7 +28,6 @@ class EzSystemsEzPlatformSolrSearchEngineBundle extends Bundle
 
         $container->addCompilerPass(new AggregateCriterionVisitorPass());
         $container->addCompilerPass(new AggregateFacetBuilderVisitorPass());
-        $container->addCompilerPass(new AggregateFieldValueMapperPass());
         $container->addCompilerPass(new AggregateSortClauseVisitorPass());
         $container->addCompilerPass(new EndpointRegistryPass());
 
