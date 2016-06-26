@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^5.4.4|~7.0",
-        "ezsystems/ezpublish-kernel": "dev-EZP-25088-common-field-value-mappers"
+        "ezsystems/ezpublish-kernel": "dev-EZP-25088-common-field-value-mappers@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.7",
